@@ -56,15 +56,15 @@ article {
 	border-bottom: 1px dashed rgba(0, 0, 0, 0.32);
 }
 
-.flight-info header {
+:is(.passanger-info, .flight-info) header {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 24px;
 }
 
 .flight-info section {
 	display: flex;
 	justify-content: space-between;
+	margin-top: 24px;
 }
 
 .flight-destination {

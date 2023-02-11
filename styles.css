@@ -1,3 +1,92 @@
-.teste {
-	background-clip: initial;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+html {
+	font-family: 'Rubik';
+	font-size: 0.875rem;
+}
+
+main {
+  background: linear-gradient(167.96deg, #8257e5 0%, #271a45 100%);
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	place-items: center;
+}
+
+p {
+	line-height: 17px;
+	opacity: 0.6;
+	color: black;
+	letter-spacing: -0.02em;
+}
+
+.value {
+	font-weight: 500;
+	opacity: 1;
+}
+
+.container {
+	width: 100%;
+}
+
+article {
+	padding: 24px 32px;
+}
+
+.container header h1 {
+	color: white;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 0.875rem;
+}
+
+.boarding-pass {
+	background: white;
+	border-radius: 24px;
+	max-width: 327px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.flight-info {
+	border-bottom: 1px dashed rgba(0, 0, 0, 0.32);
+}
+
+.flight-info header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 24px;
+}
+
+.flight-info section {
+	display: flex;
+	justify-content: space-between;
+}
+
+.flight-destination {
+	text-align: right;
+}
+
+.airport-code {
+	font-size: 40px;
+	line-height: 47px;
+}
+
+.departure-time {
+	font-weight: 400;
+}
+
+.departure-time sup {
+	font-size: 10px;
+}
+
+.container footer p {
+	margin-top: 20px;
+	color: white;
+	text-align: center;
+	line-height: 24px;
+} 

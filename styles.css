@@ -5,88 +5,88 @@
 }
 
 html {
-	font-family: 'Rubik';
-	font-size: 0.875rem;
+  font-family: "Rubik";
+  font-size: 0.875rem;
 }
 
 main {
   background: linear-gradient(167.96deg, #8257e5 0%, #271a45 100%);
-	width: 100vw;
-	height: 100vh;
-	display: grid;
-	place-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
 }
 
 p {
-	line-height: 17px;
-	opacity: 0.6;
-	color: black;
-	letter-spacing: -0.02em;
+  line-height: 17px;
+  opacity: 0.6;
+  color: black;
+  letter-spacing: -0.02em;
 }
 
 .value {
-	font-weight: 500;
-	opacity: 1;
+  font-weight: 500;
+  opacity: 1;
 }
 
 .container {
-	width: 100%;
+  width: 100%;
 }
 
 article {
-	padding: 24px 32px;
+  padding: 24px 32px;
 }
 
 .container header h1 {
-	color: white;
-	text-align: center;
-	margin-bottom: 20px;
-	font-size: 1.25rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.25rem;
 }
 
 .boarding-pass {
-	background: white;
-	border-radius: 24px;
-	max-width: 327px;
-	width: 100%;
-	margin: 0 auto;
+  background: white;
+  border-radius: 24px;
+  max-width: 327px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .flight-info {
-	border-bottom: 1px dashed rgba(0, 0, 0, 0.32);
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.32);
 }
 
 :is(.passanger-info, .flight-info) header {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .flight-info section {
-	display: flex;
-	justify-content: space-between;
-	margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
 }
 
 .flight-destination {
-	text-align: right;
+  text-align: right;
 }
 
 .airport-code {
-	font-size: 40px;
-	line-height: 47px;
+  font-size: 40px;
+  line-height: 47px;
 }
 
 .departure-time {
-	font-weight: 400;
+  font-weight: 400;
 }
 
 .departure-time sup {
-	font-size: 10px;
+  font-size: 10px;
 }
 
 .container footer p {
-	margin-top: 20px;
-	color: white;
-	text-align: center;
-	line-height: 24px;
-} 
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  line-height: 24px;
+}

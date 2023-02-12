@@ -48,6 +48,7 @@ article {
 .boarding-pass {
   border-bottom: 1px dashed rgba(0, 0, 0, 0.32);
   background: white;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
   border-radius: 24px;
   max-width: 327px;
   width: 100%;
@@ -62,6 +63,55 @@ ion-icon {
 
 .flight-info {
   border-bottom: 1px dashed rgba(0, 0, 0, 0.32);
+  position: relative;
+}
+
+.flight-info::after,
+.flight-info::before {
+  content: " ";
+  width: 24px;
+  height: 24px;
+  background: #583f9c;
+  position: absolute;
+
+  border-radius: 50%;
+}
+
+.flight-info::after {
+  left: -12px;
+  bottom: -12px;
+}
+
+.flight-info::before {
+  right: -12px;
+  bottom: -12px;
+  background: #523b92;
+}
+
+.passanger-info {
+  position: relative;
+}
+
+.passanger-info:after,
+.passanger-info:before {
+  content: " ";
+  width: 24px;
+  height: 24px;
+  background: #523b92;
+  position: absolute;
+
+  border-radius: 50%;
+}
+
+.passanger-info:after {
+  left: -12px;
+  bottom: -12px;
+}
+
+.passanger-info:before {
+  right: -12px;
+  bottom: -12px;
+  background: #4b3687;
 }
 
 :is(.passanger-info, .flight-info) header {

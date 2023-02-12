@@ -27,6 +27,7 @@ p {
 .value {
   font-weight: 500;
   opacity: 1;
+  font-size: 16px;
 }
 
 .container {
@@ -45,11 +46,18 @@ article {
 }
 
 .boarding-pass {
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.32);
   background: white;
   border-radius: 24px;
   max-width: 327px;
   width: 100%;
   margin: 0 auto;
+}
+
+ion-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: auto;
 }
 
 .flight-info {
@@ -64,6 +72,7 @@ article {
 .flight-info section {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-top: 24px;
 }
 
@@ -78,10 +87,50 @@ article {
 
 .departure-time {
   font-weight: 400;
+  position: relative;
 }
 
 .departure-time sup {
   font-size: 10px;
+  position: absolute;
+  top: -5px;
+  right: -14hx;
+}
+
+.boarding-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.boarding-container div:last-child {
+  text-align: center;
+}
+
+.boarding-info p:nth-child(odd) {
+  margin-top: 16px;
+}
+
+.boarding-info p:last-child {
+  margin-bottom: 13.5px;
+}
+
+.boarding-time {
+  background: #633bbc;
+  border-radius: 8px;
+  color: white;
+  opacity: 1;
+  padding: 4px 8px;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+.close-warning {
+  text-align: center;
+  opacity: 0.8;
+  font-size: 16px;
 }
 
 .container footer p {

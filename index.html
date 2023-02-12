@@ -39,13 +39,13 @@
                 <p class="value airport-code">GRU</p>
                 <p class="value departure-time">05:00 PM</p>
               </div>
+              <ion-icon name="airplane"></ion-icon>
               <div class="flight-destination">
                 <p>San Fracisco, EUA</p>
                 <p class="value airport-code">SFO</p>
                 <p class="value departure-time">
-                  04:48
+                  04:48 AM
                   <sup>+1</sup>
-                  AM
                 </p>
               </div>
             </section>
@@ -64,7 +64,24 @@
             </header>
           </article>
           <article>
-            <h1>boarding</h1>
+            <div class="boarding-container">
+              <div class="boarding-info">
+                <p>Boarding</p>
+                <p class="boarding-time">04:15 PM</p>
+                <p>Terminal</p>
+                <p class="value">2</p>
+                <p>Gate</p>
+                <p class="value">15</p>
+              </div>
+
+              <div>
+                <img src="./assets/qrcode.png" alt="" />
+                <p>Boarding group: 3</p>
+              </div>
+            </div>
+            <p class="close-warning">
+              <strong>Attention:</strong> the gate closes 04:45 PM
+            </p>
           </article>
         </div>
 
@@ -76,5 +93,13 @@
         </footer>
       </section>
     </main>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
